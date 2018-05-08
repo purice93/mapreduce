@@ -1,0 +1,4 @@
+hadoop	java mapper
+mapper	mapper hadoop
+redis	java
+java	java hadoop hadoop hadoop hadoop
