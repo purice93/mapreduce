@@ -31,12 +31,13 @@ public class Main {
 		paths.put("Step6Input", paths.get("Step5Output"));
 		paths.put("Step6Output", "/usr/output/step6");
 
-//		Step1.run(config, paths);
-//		Step2.run(config, paths);
-//		Step3.run(config, paths);
+		
+		Step1.run(config, paths);
+		Step2.run(config, paths);
+		Step3.run(config, paths);
 		Step4.run(config, paths);
-//		Step5.run(config, paths);
-//		Step6.run(config, paths);
+		Step5.run(config, paths);
+		Step6.run(config, paths);
 	}
 
 	// 解析csv文件，定义每个时间的权重系数
